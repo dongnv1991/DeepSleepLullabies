@@ -10,10 +10,11 @@
 
 @layer utilities {
   .moon-glow {
-    box-shadow: 0 0 80px 20px rgba(199, 197, 242, 0.15);
+    box-shadow: 0 0 80px 20px rgba(220, 230, 247, 0.15);
   }
+
   .card-glow:hover {
-    box-shadow: 0 0 30px 5px rgba(199, 197, 242, 0.1);
+    box-shadow: 0 0 30px 5px rgba(207, 199, 248, 0.1);
     transform: translateY(-4px);
     transition: all 0.4s ease;
   }

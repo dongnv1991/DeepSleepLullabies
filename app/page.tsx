@@ -14,7 +14,7 @@ export default function Home() {
             <a className="text-sm font-medium hover:text-primary transition-colors" href="#about">About</a>
             <a className="text-sm font-medium hover:text-primary transition-colors" href="#playlists">Playlists</a>
             <a className="text-sm font-medium hover:text-primary transition-colors" href="#benefits">Benefits</a>
-            <a href="https://www.youtube.com/channel/UCRy4hSrAmQ344kerJdywpNg?sub_confirmation=1" target="_blank" rel="noopener noreferrer" className="bg-primary text-background-dark px-6 py-2.5 rounded-full text-sm font-bold hover:brightness-110 transition-all">
+            <a href="https://www.youtube.com/channel/UCRy4hSrAmQ344kerJdywpNg?sub_confirmation=1" target="_blank" rel="noopener noreferrer" className="bg-periwinkle text-background-dark px-6 py-2.5 rounded-full text-sm font-bold hover:brightness-110 transition-all">
               Subscribe
             </a>
           </div>
@@ -22,8 +22,8 @@ export default function Home() {
       </header>
       <main>
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-gradient-to-b from-[#0B1C2D] via-[#131B31] to-[#1A1F3C]">
-          <div className="absolute top-40 right-[10%] w-32 h-32 bg-primary/20 rounded-full blur-3xl moon-glow"></div>
+        <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-gradient-to-b from-night-purple via-[#35274D] to-[#402F5A]">
+          <div className="absolute top-40 right-[10%] w-32 h-32 bg-baby-blue/20 rounded-full blur-3xl moon-glow"></div>
           <div className="absolute top-20 left-[15%] opacity-40">
             <span className="material-symbols-outlined text-primary text-xs">auto_awesome</span>
           </div>
@@ -42,7 +42,7 @@ export default function Home() {
               Designed to mimic a mother\'s heartbeat and natural frequencies to help your little one drift into a calm, restorative slumber.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="https://www.youtube.com/channel/UCRy4hSrAmQ344kerJdywpNg" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto flex items-center justify-center gap-2 bg-primary text-background-dark px-8 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform">
+              <a href="https://www.youtube.com/channel/UCRy4hSrAmQ344kerJdywpNg" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto flex items-center justify-center gap-2 bg-periwinkle text-background-dark px-8 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform">
                 <span className="material-symbols-outlined">play_circle</span>
                 Listen on YouTube
               </a>
@@ -55,7 +55,7 @@ export default function Home() {
           <div className="absolute -bottom-24 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-primary/5 rounded-full blur-[120px]"></div>
         </section>
         {/* About Section */}
-        <section className="py-24 px-6 bg-background-light dark:bg-[#0B1C2D]" id="about">
+        <section className="py-24 px-6 bg-background-light dark:bg-background-dark" id="about">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-20">
               <h2 className="text-4xl font-bold mb-4">Why DeepSleep Lullabies?</h2>
@@ -94,7 +94,7 @@ export default function Home() {
           </div>
         </section>
         {/* Featured Videos */}
-        <section className="py-24 px-6 bg-[#091524] dark:bg-[#071321]" id="videos">
+        <section className="py-24 px-6 bg-[#211830] dark:bg-[#1A1326]" id="videos">
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col md:flex-row items-end justify-between mb-12 gap-6">
               <div>
@@ -296,7 +296,7 @@ export default function Home() {
         </section>
         {/* Subscribe Section */}
         <section className="py-24 px-6 relative">
-          <div className="max-w-5xl mx-auto bg-gradient-to-br from-[#1A1F3C] to-[#0B1C2D] rounded-xl p-12 md:p-20 text-center border border-primary/20 relative overflow-hidden">
+          <div className="max-w-5xl mx-auto bg-gradient-to-br from-[#402F5A] to-night-purple rounded-xl p-12 md:p-20 text-center border border-primary/20 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-[100px]"></div>
             <div className="relative z-10">
               <h2 className="text-4xl md:text-5xl font-black text-slate-100 mb-6">Join Thousands of Parents Sleeping Better Tonight</h2>

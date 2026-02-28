@@ -10,9 +10,14 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                "primary": "#c7c5f2",
-                "background-light": "#f6f6f8",
-                "background-dark": "#0B1C2D",
+                "night-purple": "#2A1F3D",
+                "soft-lavender": "#CFC7F8",
+                "baby-blue": "#DCE6F7",
+                "moonlight": "#F9F8FD",
+                "periwinkle": "#A6B4F2",
+                "primary": "#CFC7F8",
+                "background-light": "#F9F8FD",
+                "background-dark": "#2A1F3D",
             },
             fontFamily: {
                 "display": ["Manrope", "sans-serif"]
